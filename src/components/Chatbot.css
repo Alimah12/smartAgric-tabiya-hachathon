@@ -1,0 +1,76 @@
+/* Chatbot.css */
+
+/* Ensure the body takes up the full height of the viewport */
+body {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background for the whole page */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Main chatbot container styles */
+.chatbot-container {
+    width: 100%;
+    max-width: 600px; /* Set a max width for the chatbot */
+    background-color: #f9f9f9; /* Light background for the chatbot */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent overflow */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    max-height: 80vh; /* Limit height to prevent overflow */
+}
+
+/* Chat window styles */
+.chat-window {
+    flex: 1; /* Take up remaining space */
+    padding: 10px; /* Padding around messages */
+    overflow-y: auto; /* Scrollable messages */
+}
+
+/* Message styles */
+.user-message {
+    background-color: #d1e7dd; /* Light green for user messages */
+    padding: 10px; /* Padding for message */
+    border-radius: 5px; /* Rounded message bubbles */
+    margin: 5px 0; /* Space between messages */
+}
+
+.bot-message {
+    background-color: #e9ecef; /* Light grey for bot messages */
+    padding: 10px; /* Padding for message */
+    border-radius: 5px; /* Rounded message bubbles */
+    margin: 5px 0; /* Space between messages */
+}
+
+/* Input form styles */
+.chatbot-input-container {
+    display: flex; /* Flex container for input */
+    padding: 10px; /* Padding around input area */
+}
+
+.chatbot-input {
+    flex: 1; /* Take up remaining space */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.chatbot-submit {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.chatbot-submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

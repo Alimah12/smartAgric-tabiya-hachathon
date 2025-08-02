@@ -1,0 +1,10 @@
+/* src/components/AboutUs.css */
+.about-us {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center;
+}
+
+.about-us h1 {
+    color: #333; /* Dark gray */
+}

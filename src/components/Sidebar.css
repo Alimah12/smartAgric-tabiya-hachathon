@@ -1,0 +1,33 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 200px; /* Set a fixed width for the sidebar */
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 15px; /* Padding for the sidebar */
+    height: calc(100vh - 80px); /* Full height minus the header */
+    position: fixed; /* Fixed positioning */
+    top: 60px; /* Start below the header (adjust this value as needed) */
+    left: 0; /* Align to the left */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.sidebar li {
+    margin: 10px 0; /* Space between items */
+}
+
+.sidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
+    display: block; /* Make the link a block element */
+    padding: 10px; /* Padding around the link */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.sidebar a:hover {
+    background-color: #ddd; /* Change background on hover */
+}

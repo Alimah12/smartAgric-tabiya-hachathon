@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px; /* Reduced padding to decrease height */
+    font-size: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Adjust padding of page content to prevent overlap with the reduced header height */
+.page-content {
+    padding-top: 10px; /* Adjusted for reduced header height */
+}

@@ -1,0 +1,54 @@
+/* src/pages/About.css */
+.about-container {
+  padding: 20px;
+  color: #333; /* Adjust text color as needed */
+}
+
+.intro-section, .mission-section, .features-section, .team-section, .get-in-touch-section {
+  margin-bottom: 40px; /* Space between sections */
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around; /* Align team members evenly */
+  flex-wrap: wrap; /* Wrap members on smaller screens */
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member-image {
+  width: 150px; /* Adjust the width as necessary */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: make images circular */
+  border: 2px solid #4CAF50; /* Optional: add border for better visibility */
+}
+/* src/pages/About.css */
+.about-container {
+  padding: 20px;
+  color: #333; /* Adjust text color as needed */
+}
+
+.intro-section, .mission-section, .features-section, .team-section, .get-in-touch-section {
+  margin-bottom: 40px; /* Space between sections */
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around; /* Align team members evenly */
+  flex-wrap: wrap; /* Wrap members on smaller screens */
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member-image {
+  width: 150px; /* Adjust the width as necessary */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: make images circular */
+  border: 2px solid #4CAF50; /* Optional: add border for better visibility */
+}

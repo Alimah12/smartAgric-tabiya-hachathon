@@ -1,0 +1,48 @@
+/* src/components/DiseasePrediction.css */
+.disease-prediction {
+    background-color: #eaf7e7; /* Light green background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Reduced padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 95%; /* Allow more width */
+    margin: auto; /* Center the container */
+}
+
+h2 {
+    color: #4CAF50; /* Green color for headings */
+    margin: 5px 0; /* Reduced margin for headings */
+}
+
+p {
+    font-size: 1em; /* Reduced font size for less height */
+    color: #333; /* Dark text color */
+    margin: 5px 0; /* Reduced margin for paragraphs */
+}
+
+input[type="file"] {
+    margin: 15px 0; /* Reduced space above and below the file input */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 8px 12px; /* Reduced padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.image-preview {
+    margin: 15px 0; /* Reduced space around the image preview */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h3 {
+    color: #333; /* Dark color for results */
+    margin: 5px 0; /* Reduced space between results */
+}

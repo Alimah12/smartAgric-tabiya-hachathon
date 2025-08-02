@@ -1,0 +1,55 @@
+.jobs-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Change header color to white */
+    margin-top: 40px; /* Add space above the header */
+}
+
+.job-form, .candidate-form {
+    background: #ecf0f1; /* Light background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+button {
+    background: #27ae60; /* Green button color */
+    color: white; /* White text on buttons */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #219150; /* Darker green on hover */
+}
+
+.results {
+    margin-top: 30px; /* Add space above the results */
+}
+
+.result-item {
+    background: #d5dbdb; /* Light background for result items */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: black; /* Set text color for results to black for visibility */
+}
+
+.result-item h2 {
+    color: white; /* Change result item title color to white */
+}

@@ -1,0 +1,54 @@
+.chatbotContainer {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.chatWindow {
+    height: 300px;
+    overflow-y: auto; /* Allow scrolling if messages overflow */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.userMessage {
+    text-align: right;
+    color: blue; /* Different color for user messages */
+}
+
+.botMessage {
+    text-align: left;
+    color: green; /* Different color for bot messages */
+}
+
+.chatForm {
+    display: flex; /* Align input and button in a row */
+}
+
+.inputField {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sendButton {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Bootstrap green */
+    color: white;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
